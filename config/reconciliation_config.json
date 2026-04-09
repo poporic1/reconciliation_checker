@@ -1,0 +1,14 @@
+{
+    "source_file": "data/source_orders.csv",
+    "target_file": "data/target_orders.csv",
+    "key_columns": [
+        "order_id"
+    ],
+    "compare_columns": [
+        "customer_id",
+        "amount",
+        "status",
+        "city",
+        "updated_at"
+    ]
+}
