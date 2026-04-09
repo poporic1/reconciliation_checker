@@ -59,13 +59,15 @@ project/
 
 Файл: `config/reconciliation_config.json`
 
-```json
+```
+  json
 {
   "source_file": "data/source_orders.csv",
   "target_file": "data/target_orders.csv",
   "key_columns": ["id"],
   "compare_columns": ["amount", "status"]
-}```
+}
+```
 
 ---
 
