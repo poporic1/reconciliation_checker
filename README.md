@@ -56,8 +56,9 @@ project/
 ---
 
 ## Конфигурация
-
+```
 Файл: `config/reconciliation_config.json`
+```
 
 ```
   json
@@ -83,21 +84,30 @@ project/
 ## Запуск:
 
 1. Установить зависимости
+```
 pip install pandas
+```
 2. Подготовить данные
+```
 Положить CSV файлы в папку data/
+```
 3. Настроить конфиг
-Отредактировать файл:
-config/reconciliation_config.json
+```
+Отредактировать файл: config/reconciliation_config.json
+```
 4. Запустить скрипт
+```
 python main.py
+```
 
 ---
 
 ## Результат:
 
 После запуска создается файл:
+```
 output/summary_result.csv
+```
 В нем содержится:
 - количество строк в source и target
 - совпадают ли они
