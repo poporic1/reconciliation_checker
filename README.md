@@ -23,8 +23,8 @@
 ```
 project/
 │
-├── data/ # входные CSV файлы
-├── output/ # результаты (отчет)
+├── data/
+├── output/
 ├── config/
 │ └── reconciliation_config.json
 │
